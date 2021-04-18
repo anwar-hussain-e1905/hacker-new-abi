@@ -1,0 +1,40 @@
+
+.result {
+  --light-color : #b3b3b3;
+  --desc-color : #434343;
+  box-shadow: 0px 0px 5px #ccc;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.result__title {
+  display: flex;
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.result__url {
+  color: var(--light-color);
+  cursor: pointer;
+  padding-left: 10px;
+}
+
+.result--nowrap {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.result__info {
+  color: var(--light-color);
+}
+
+.result__desc {
+  margin-top: 10px;
+  color: var(--desc-color);
+}
+
+.result--small {
+  text-align: left;
+  font-size: 0.875rem;
+}
